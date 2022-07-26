@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Hind+Madurai&family=Inter&family=Literata:opsz,wght@7..72,300&family=M+PLUS+1p&family=Poppins:wght@200;300&family=Roboto&family=Roboto+Flex:opsz@8..144&family=Source+Sans+Pro:wght@200;300;600&display=swap');
+.section {
+	position: relative;
+	height: 100vh;
+	
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	
+}
+
+#booking {
+	font-family: 'Poppins', sans-serif;
+	background-image: url('img/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+.booking-form {
+	position: relative;
+	background: white;
+	opacity: 84%;
+	max-width: 642px;
+	width: 100%;
+	margin: auto;
+	padding: 25px 25px 25px;
+	height:500px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+}
+
+
+
+label {
+    display: inline-block;
+	color: black;
+}
+
+.navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+	position: sticky;
+}
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.booking-form .form-control {
+	height: 40px;
+	color:black;
+	border: 2px solid #dfe5e9;
+	font-size: 14px;
+	font-weight: 400;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 4px;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.booking-cta {
+	margin-top: 27px;
+    text-align: center;
+}
+
+.booking-cta h1 {
+	font-size: 52px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 700;
+	
+}
+
+.booking-cta p {
+	font-size: 22px;
+	color: white;
+}
+
+.booking-cta span {
+	color: #4d7b79;
+	font-size: 2rem;
+   font-weight: bolder;
+   
+}
+
+.nav-item {
+    padding: 25px;
+    margin-left: 25px;
+    font-size: 650;
+    position: sticky;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    padding: 19px;
+    color: white;
+    background-color: #4d7b79;
+	width: 100%;
+ }
+  
+  .fa-instagram {
+    color: white;
+    width: 30px;
+ }
+ .fa-youtube {
+    color: white;
+    width: 30px;
+  }
+  .fa-envelope {
+    color: white;
+    width: 30px;
+  }
+  .bi-whatsapp {
+      color: white;
+      width: 30px;
+  }
